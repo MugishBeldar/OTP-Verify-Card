@@ -1,0 +1,114 @@
+.otp-form-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+
+  label {
+    margin-bottom: 5px;
+  }
+
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .get-otp-btn {
+    background-color: #4caf50; /* Green */
+    color: white;
+    border: none;
+  }
+
+  .verify-btn {
+    background-color: #008cba; /* Blue */
+    color: white;
+    border: none;
+  }
+}
+
+.otp-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.otp-form > h3 {
+  color:  rgba(40, 180, 133);
+  margin-bottom: 10px;
+}
+
+.otp-form__primary {
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
+  padding: 4rem 0rem;
+  border-radius: 1rem;
+  /* box-shadow: 100px grey; */
+}
+
+.otp-form__primary-value {
+  background-color: rgb(245, 245, 245, 0.5);
+  padding: 0.7rem;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.otp-form__label {
+  display:inline-block; 
+  width:4rem;
+}
+
+.otp-form__email-feild {
+  margin: 1rem;
+}
+
+.otp-form__email-feild > input{
+  width: 15rem;
+  padding: .3rem;
+  border-radius: 5px;
+  border: 1px solid green;
+  background-color: rgb(245, 245, 245);
+}
+
+.otp-form__btn {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  justify-content: center;
+}
+
+.otp-form__otp-field {
+  margin: 1rem;
+  
+}
+
+.otp-form__otp-field > input {
+  width: 2.5rem;
+  padding: .3rem;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid green;
+  background-color: whitesmoke;
+}
+
+.otp-form__input {
+  margin-right: 1.6rem;
+}
+
+.otp-form__btn > button{
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  border: green .5px solid;
+}
+.otp-form__btn > button:hover {
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
+  transition: ease-in-out;
+}
