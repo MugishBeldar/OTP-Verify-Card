@@ -16,13 +16,13 @@ const OtpVerify = () => {
         const generatedOtp = Math.floor(1000 + Math.random() * 9000);
         setGenOtp(generatedOtp)
         await emailjs.send(
-          'service_d2yz6yp', // Replace with your service ID
-          'template_utuf4uu', // Replace with your template ID
+          'YOUR SERVICE  ID FROM EMAIL-JS.COM', // Replace with your service ID
+          'YOUR TEMPLATE ID FROM EMAIL-JS.COM', // Replace with your template ID
           {
             to_email: email,
             otp: generatedOtp.toString(),
           },
-          'Tn_kdjXmD05VzIhdL' // Replace with your user ID
+          'YOUR USER ID FROM EMAIL-JS.COM' // Replace with your user ID
         );
         setOtpSent(true);
         setOtp('');
